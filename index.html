@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="3" style="border-radius: collapse; border-width: 2px; height: 4cm;">
+        <thead>
+            <tr>
+                <th >
+                 Group
+                </th>
+                <th colspan="2">
+                Teacher fullname
+                </th>
+                <th colspan="2">
+                 Students fullname
+                </th>
+                <th>
+                Title
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">
+                    P227
+                </td>
+                <td rowspan="4">
+                    Javid 
+                </td>
+                <td rowspan="4">
+                    Asadullayev
+                </td>
+                <td>
+                    Kamala 
+                </td>
+                <td>
+                    Jamalova
+                </td>
+                <td>
+                    Power(5<sup>2</sup> +5)
+                </td>
+            </tr>
+            <tr>
+               
+                <td>
+                    Duygu 
+                    
+                </td>
+                <td>
+                    Hasanzade
+                </td>
+                <td>
+                    H<sub>2</sub>O
+
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    Fateh 
+                </td>
+                <td>
+                    Mammadli
+                </td>
+                <td>
+                    HTML
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ali 
+                </td>
+                <td>
+                    Salehov
+                </td>
+                <td>
+                    CSS
+                </td>
+            </tr>
+
+
+            <form action="" method="get" >
+                <div >
+                <h1 style="text-align:center;">Application form</h1>
+                <label for="ad">Ad:</label><br>
+                <input type="text" name="a" required id="ad" >
+                </div>
+                <div>
+                    <label for="soyad">Soyad:</label><br>
+                    <input type="text" name="s" required id="soyad" >
+                </div>
+                <div>
+                    <label for="sifre">Sifre:</label><br>
+                    <input type="password" name="p" required id="sifre" >
+                </div>
+                <div>
+                    <h4>Cinsinizi secin:</h4>
+                   
+                    <label for="kisi">K</label>
+                    <input type="radio" name="c" id="Kisi">
+                    <label for="qadin">Q</label>
+                    <input type="radio" name="c" id="Qadin">
+                </div>
+                <div>
+                    <h4>Bitirdiyiniz tehsil derecesini secin:</h4>
+                    <input type="checkbox" name="b" id="orta">
+                    <label for="orta">Orta</label><br>
+                    <input type="checkbox" name="b" id="bakalvr">
+                    <label for="bakalavr">Bakalavr</label><br>
+                    <input type="checkbox" name="b" id="magistr">
+                    <label for="magistr">Magistr</label><br>
+                    <input type="checkbox" name="b" id="doktor">
+                    <label for="doktor">Doktor</label>
+                    
+                    
+                    
+                </div>
+                <div>
+                    <label for="yas">Yas:</label><br>
+                <input type="number" min="0" max="120" id="yas" >
+                </div>
+                <div>
+                    <label for="boy">Boy:</label><br>
+                    <input type="number" min="0" max="240" id="boy" >
+                </div>
+                <div>
+                    <label for="ceki">Ceki</label><br>
+                    <input type="number" min="0" max="300"  id="ceki" >
+                </div>
+                <div style="margin-top:18px; text-align: center;">
+                    <button style="color: blue"  type="submit">Tesdiqle</button>
+                </div>
+
+            </form>
+        </tbody>
+    </table>
+</body>
+</html>
